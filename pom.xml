@@ -17,6 +17,7 @@
     <modules>
         <module>restful</module>
         <module>redis</module>
+        <module>swagger-test</module>
     </modules>
 
 
