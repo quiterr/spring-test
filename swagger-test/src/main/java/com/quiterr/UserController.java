@@ -1,6 +1,7 @@
 package com.quiterr;
 
 import com.quiterr.model.User;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -13,6 +14,7 @@ import java.util.*;
  */
 @RestController
 @RequestMapping(value="/users")     // 通过这里配置使下面的映射都在/users下，可去除
+@Api
 public class UserController {
     static Map<Long, User> users = Collections.synchronizedMap(new HashMap<Long, User>());
 
