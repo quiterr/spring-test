@@ -32,6 +32,7 @@ public class SwaggerConfig {
                 .termsOfServiceUrl("http://www.jianshu.com/u/e268fe04200a")
                 .contact("quiterr")
                 .version("1.0")
+                .license("all copyright to com.quiterr")
                 .build();
     }
 }
