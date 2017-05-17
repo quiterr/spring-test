@@ -43,11 +43,14 @@ public class MyStartupRunner implements CommandLineRunner {
 //        mongoDataService.InsertBook(book);
 
         //test3
-        PageRequest pageRequest = new PageRequest(0,20);
-        Page<Book> books = bookRepository.findAll(pageRequest);
-        for (Book book:books.getContent()) {
-            logger.info(book.toString());
-        }
+//        PageRequest pageRequest = new PageRequest(0,20);
+//        Page<Book> books = bookRepository.findAll(pageRequest);
+//        for (Book book:books.getContent()) {
+//            logger.info(book.toString());
+//        }
+
+        //test4
+        logger.info(bookRepository.findByNameAndWriterAllIgnoringCase("西游记","吴承恩").toString());
 
     }
 }
