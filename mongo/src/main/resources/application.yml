@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://stat:iemwmwl6@172.19.3.132:27020,172.19.3.133:27020,172.19.3.134:27020/stat
