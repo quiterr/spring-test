@@ -21,7 +21,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.quiterr"))
+                .apis(RequestHandlerSelectors.basePackage("com.com.quiterr"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -30,9 +30,9 @@ public class SwaggerConfig {
                 .title("Spring Boot中使用Swagger2构建RESTful APIs")
                 .description("更多Spring Boot相关文章请关注：http://www.jianshu.com/u/e268fe04200a")
                 .termsOfServiceUrl("http://www.jianshu.com/u/e268fe04200a")
-                .contact("quiterr")
+                .contact("com.quiterr")
                 .version("1.0")
-                .license("all copyright to com.quiterr")
+                .license("all copyright to com.com.quiterr")
                 .build();
     }
 }
