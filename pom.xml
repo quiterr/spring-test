@@ -25,6 +25,7 @@
         <module>transaction</module>
         <module>multi-data-source</module>
         <module>aop-log</module>
+        <module>async</module>
     </modules>
 
     <repositories>
